@@ -64,7 +64,7 @@ const headerFixed2 = (interies) => {
     }
 
 }
-const options2 = {
+const options2 ={
     root: null,
     threshold: 0.2,  //{0.1 dan 1gacha}
 }
