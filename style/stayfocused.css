@@ -1,0 +1,36 @@
+.stay {
+    padding: 10rem 0rem;
+    background-color: var(--bg-color);
+    padding: 3.4rem 0rem;
+    margin-bottom: 13rem;
+}
+.focused {
+    display: flex;
+}
+.focused_info {
+    width: 50%;
+}
+
+.focused_info>h2 {
+    color: #fff;
+    margin-bottom: 6.4rem;
+}
+
+.focused_info>p {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 6.4rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2.3rem;
+}
+.focused_img {
+    width: 50%;
+}
+.focused_img>img {
+    width: 100%;
+}

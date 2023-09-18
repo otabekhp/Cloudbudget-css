@@ -1,0 +1,71 @@
+.contact_section {
+    padding: 10rem 0rem;
+    display: flex;
+    margin-bottom: 13rem;
+}
+
+.contact_info {
+    width: 80%;
+}
+
+.contact_info>h2 {
+    margin-bottom: 8.6rem;
+}
+
+.contact_info>p {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+}
+
+.contact_inputs {
+    width: 70%;
+}
+
+.input_two {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2.4rem;
+
+}
+
+.input_two>input {
+    width: 25.5rem;
+    height: 6rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+}
+input {
+    width: 54rem;
+    height: 6rem;
+    border: none;
+    outline: none;
+    margin-bottom: 2.4rem;
+    border-radius: 1rem;
+    border: 1px solid var(--gray-1, #333);
+    text-indent: 24px;
+    color: #000;
+    opacity: 0.5;
+}
+
+input::placeholder {
+    color: #000;
+    opacity: 0.5;
+    text-indent: 24px;
+}
+
+button {
+    width: 16rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}

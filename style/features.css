@@ -1,0 +1,65 @@
+.features {
+    padding: 10rem 0rem;
+    margin-bottom: 18.4rem;
+    /* background-color: #FAFAFA; */
+    margin-bottom: 28.7rem;
+}
+
+.features>h2 {
+    text-align: center;
+    margin-bottom: 17.3rem;
+}
+.features_imng {
+    display: flex;
+    gap: 4rem;
+}
+
+.card {
+    width: 35rem;
+    height: 25rem;
+    position: relative;
+}
+
+.card_one {
+    background-image: url(../img/features/Bg1.png);
+}
+.card_second {
+    background-image: url(../img/features/Bg2.png);
+}
+.card_third {
+    background-image: url(../img/features/Bg3.png);
+}
+.card_info {
+    padding: 3.2rem 3.3rem 2.5rem 3.3rem;
+    text-align: center;
+    width: 29.3rem;
+    height: 19.8rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 5px 5px 30px 0px rgba(19, 1, 1, 0.1);
+    position: absolute;
+    top: 16rem;
+    right: 2.6rem;
+}
+.card_info >  h3 {
+    color: #101010;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.card_info>p {
+    color: #101010;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+.card_info>span {
+    color: var(--bg-color);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
